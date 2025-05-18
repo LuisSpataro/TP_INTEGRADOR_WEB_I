@@ -1,0 +1,12 @@
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner{
+    width: 80vw;
+    height: auto;
+    border-radius: 1.5rem;
+}

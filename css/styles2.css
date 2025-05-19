@@ -5,14 +5,14 @@ body {
   }
 
 main{
+    max-width: 1200px;
     width: 80%;
     margin: 0 auto;
     gap: 2em;
 }
 
 h1{
-
-
+    text-align: center;
 }
 
   header {

@@ -1,31 +1,39 @@
-*{
+* {
   margin: 0;
 }
 
 
-html, body {  
-    height: 100%;
-    font-family: Arial;
-    margin: 0;
-    padding: 0;
-    background-color: #292c2d;
-    color: white;
-    display: flex;
-    flex-direction: column;
-  }
-
-main{
-    max-width: 1200px;
-    width: 80%;
-    margin: 0 auto;
-    gap: 2em;
-    flex:1;
+html,
+body {
+  height: 100%;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  background-color: #292c2d;
+  color: white;
+  display: flex;
+  flex-direction: column;
 }
 
-#banner{
-    width: 90vw;
-    height: auto;
-    border-radius: 1.5rem;
+main {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+  gap: 2em;
+  flex: 1;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+
+}
+
+.img_banner {
+  width: 80%;
+  height: auto;
+  border-radius: 1.5rem;
+
 }
 
 header {
@@ -33,52 +41,52 @@ header {
   border-bottom: 1px solid #ccc;
 }
 
-a{
+a {
   text-decoration: none;
-  color:blue;
+  color: blue;
 }
 
-a:visited{
+a:visited {
   text-decoration: none;
-  color:blue;
+  color: blue;
 }
 
-ul{
+ul {
   display: flex;
   justify-content: space-around;
   padding: 0.5em;
   list-style: none;
-  }
+}
 
 header li {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-h1{
-    text-align: center;
-    padding: 1em;
+h1 {
+  text-align: center;
+  padding: 1em;
 }
 
-.principal{
+.principal {
   display: flex;
   justify-content: space-around;
   gap: 3em;
 }
 
-.columna{
+.columna {
   flex: 1;
 }
 
-.miniatura:hover{
+.miniatura:hover {
   transition: transform 0.4s ease;
-  transform: scale(1.3,1.3);
+  transform: scale(1.3, 1.3);
 }
 
-.similares{
+.similares {
   display: flex;
 }
 
-footer{
+footer {
   margin-top: 1em;
   background-color: #eeee;
   color: blue;
@@ -90,53 +98,66 @@ footer{
 
 /*User vista en 3 columnas*/
 
-.form_columnas{
+.form_columnas {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  }
+}
 
-#avatar{
+#avatar {
   width: 12em;
 }
-.columna_1{
+
+.columna_1 {
   width: 20%;
 }
 
-.ordenar{
+.ordenar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1em;
 }
 
-.columna_2{
+.form_login {
+  align-items: center;
+}
+
+.ordenar_login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  width: 30%;
+}
+
+.columna_2 {
   width: 40%;
 }
 
-.a_izquierda{
+.a_izquierda {
   width: 45%;
 }
 
-.a_derecha{
+.a_derecha {
   width: 55%;
 }
 
-.botones{
+.botones {
   display: flex;
   justify-content: center;
   gap: 3em;
 }
 
-.boton{
+.boton {
   padding: 1em;
   width: 20%;
 }
 
-.guardar{
+.guardar {
   background-color: rgb(162, 219, 77);
 }
 
-.cancelar{
+.cancelar {
   background-color: rgb(240, 94, 94);
 }

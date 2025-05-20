@@ -1,0 +1,39 @@
+
+.material-icons{
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#banner{
+    width: 90vw;
+    height: auto;
+    border-radius: 1.5rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    /*align-items: center;*/
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  /*flex-direction: row;*/
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}

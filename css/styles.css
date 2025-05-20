@@ -1,39 +1,170 @@
-
-.material-icons{
-    vertical-align: middle;
-    font-size: 1.2em;
+* {
+  margin: 0;
 }
 
-.header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-}
-#banner{
-    width: 90vw;
-    height: auto;
-    border-radius: 1.5rem;
-}
 
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 1rem;
-    /*align-items: center;*/
-}
-
-.logo{
-    display: flex;
-    align-items: center;
-}
-
-ul{
+html,
+body {
+  height: 100%;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  background-color: #292c2d;
+  color: white;
   display: flex;
+  flex-direction: column;
+}
+
+main {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+  gap: 2em;
+  flex: 1;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+
+}
+
+.img_banner {
+  width: 80%;
+  height: auto;
+  border-radius: 1.5rem;
+
+}
+
+header {
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+}
+
+.material-symbols-outlined {
+      vertical-align: middle;
+      margin-right: 0.3em;
+      margin-bottom: 0.2em;
+      font-size: 1.2em;
+    }
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5em;
   list-style: none;
-  /*flex-direction: row;*/
+}
+
+header li {
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  padding: 1em;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-around;
+  gap: 3em;
+}
+
+.columna {
+  flex: 1;
+}
+
+.miniatura:hover {
+  transition: transform 0.4s ease;
+  transform: scale(1.3, 1.3);
+}
+
+.similares {
+  display: flex;
+}
+
+footer {
+  margin-top: 1em;
+  background-color: #eeee;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+}
+
+/*User vista en 3 columnas*/
+
+.form_columnas {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#avatar {
+  width: 12em;
+}
+
+.columna_1 {
+  width: 20%;
+}
+
+.ordenar {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  padding: 1em;
+}
+
+.form_login {
+  align-items: center;
+}
+
+.ordenar_login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  width: 30%;
+}
+
+.columna_2 {
+  width: 40%;
+}
+
+.a_izquierda {
+  width: 45%;
+}
+
+.a_derecha {
+  width: 55%;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+}
+
+.boton {
+  padding: 1em;
+  width: 20%;
+}
+
+.guardar {
+  background-color: rgb(162, 219, 77);
+}
+
+.cancelar {
+  background-color: rgb(240, 94, 94);
 }

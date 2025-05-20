@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles2.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>login</title>
 </head>
@@ -29,13 +29,15 @@
             </div>
 
             <div class="ordenar_login">
-                <a href="principal.html"><button class="guardar" type="submit">Ingresar</button></a>
+                <!--se cambio de type=submit a button para que pueda dirigir a principal-->
+                <button onclick="window.location.href='principal.html'" class="guardar" type="button">Ingresar</button>
             </div>
 
         </form>
 
+        <a href="reset_password.html">Recuperar Contraseña</a>
+        <a href="registro.html">Registrarse</a>
 
-        </form>
 
 
 

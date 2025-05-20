@@ -63,7 +63,7 @@ h1{
   flex: 1;
 }
 
-img:hover{
+.miniatura:hover{
   transition: transform 0.4s ease;
   transform: scale(1.5,1.5);
 }
@@ -80,4 +80,57 @@ footer{
   justify-content: center;
   align-items: center;
   height: 3em;
+}
+
+/*User vista en 3 columnas*/
+
+.form_columnas{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  }
+
+#avatar{
+  width: 12em;
+}
+.columna_1{
+  width: 20%;
+}
+
+.ordenar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.columna_2{
+  width: 40%;
+}
+
+.a_izquierda{
+  width: 45%;
+}
+
+.a_derecha{
+  width: 55%;
+}
+
+.botones{
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+}
+
+.boton{
+  padding: 1em;
+  width: 20%;
+}
+
+.guardar{
+  background-color: rgb(162, 219, 77);
+}
+
+.cancelar{
+  background-color: rgb(240, 94, 94);
 }

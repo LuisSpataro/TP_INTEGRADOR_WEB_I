@@ -1,5 +1,9 @@
+*{
+  margin: 0;
+}
+
 body {
-    font-family: sans-serif;
+    font-family: Arial;
     margin: 0;
     padding: 0;
   }
@@ -11,21 +15,37 @@ main{
     gap: 2em;
 }
 
+header {
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5em;
+  list-style: none;
+  }
+
+header li {
+    cursor: pointer;
+}
+
 h1{
     text-align: center;
 }
 
-  header {
-    background-color: #eee;
-    border-bottom: 1px solid #ccc;
-  }
+section{
+  display: flex;
+  justify-content: space-around;
+  gap: 3em;
+}
 
-  ul{
-    display: flex;
-    justify-content: space-around;
-    padding: 0.5em;
-  }
+.columna{
+  flex: 1;
+}
 
-  header li {
-    cursor: pointer;
-  }
+img:hover{
+  transition: transform 0.4s ease;
+  transform: scale(1.5,1.5);
+}

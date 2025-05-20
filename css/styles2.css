@@ -22,6 +22,12 @@ main{
     flex:1;
 }
 
+#banner{
+    width: 90vw;
+    height: auto;
+    border-radius: 1.5rem;
+}
+
 header {
   background-color: #eee;
   border-bottom: 1px solid #ccc;
@@ -65,7 +71,7 @@ h1{
 
 .miniatura:hover{
   transition: transform 0.4s ease;
-  transform: scale(1.5,1.5);
+  transform: scale(1.3,1.3);
 }
 
 .similares{

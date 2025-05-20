@@ -100,7 +100,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3em;
+  /*height: 3em;*/
+  padding: 1em
 }
 
 /*User vista en 3 columnas*/

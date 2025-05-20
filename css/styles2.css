@@ -2,10 +2,16 @@
   margin: 0;
 }
 
-body {
+
+html, body {  
+    height: 100%;
     font-family: Arial;
     margin: 0;
     padding: 0;
+    background-color: #292c2d;
+    color: white;
+    display: flex;
+    flex-direction: column;
   }
 
 main{
@@ -13,11 +19,22 @@ main{
     width: 80%;
     margin: 0 auto;
     gap: 2em;
+    flex:1;
 }
 
 header {
   background-color: #eee;
   border-bottom: 1px solid #ccc;
+}
+
+a{
+  text-decoration: none;
+  color:blue;
+}
+
+a:visited{
+  text-decoration: none;
+  color:blue;
 }
 
 ul{
@@ -33,9 +50,10 @@ header li {
 
 h1{
     text-align: center;
+    padding: 1em;
 }
 
-section{
+.principal{
   display: flex;
   justify-content: space-around;
   gap: 3em;
@@ -48,4 +66,18 @@ section{
 img:hover{
   transition: transform 0.4s ease;
   transform: scale(1.5,1.5);
+}
+
+.similares{
+  display: flex;
+}
+
+footer{
+  margin-top: 1em;
+  background-color: #eeee;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
 }

@@ -173,9 +173,6 @@ footer {
 
 }
 
-.form_login {
-  max-width: 100%;
-}
 
 .ingresar {
   display: flex;
@@ -192,9 +189,6 @@ footer {
   display: flex;
   flex-direction: column;
 }
-
-
-
 
 .ordenar_login {
   display: flex;
@@ -215,6 +209,16 @@ footer {
 }
 
 
+.links{
+  text-decoration: none;
+  color: whitesmoke
+}
+
+.links:visited {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
 /*busqueda pelis y series*/
 
 .contenedor{
@@ -223,4 +227,16 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 2em;
+}
+
+/*boton comenzar*/
+
+.centrar_boton{
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.extender{
+  width: 40%;
 }

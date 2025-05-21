@@ -23,18 +23,7 @@ main {
   flex: 1;
 }
 
-.banner {
-  display: flex;
-  justify-content: center;
 
-}
-
-.img_banner {
-  width: 80%;
-  height: auto;
-  border-radius: 1.5rem;
-
-}
 
 header {
   background-color: #eee;
@@ -127,17 +116,7 @@ footer {
   padding: 1em;
 }
 
-.form_login {
-  align-items: center;
-}
 
-.ordenar_login {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em;
-  width: 30%;
-}
 
 .columna_2 {
   width: 40%;
@@ -168,4 +147,71 @@ footer {
 
 .cancelar {
   background-color: rgb(240, 94, 94);
+}
+
+/*recuperar contraseña*/
+
+.recuperar_contrasenia{
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*INDEX*/
+
+.banner {
+  display: flex;
+  justify-content: center;
+  background-color: #292c2d;
+
+}
+
+.img_banner {
+  width: 80%;
+  height: auto;
+  border-radius: 1.5rem;
+
+}
+
+.form_login{
+  max-width: 100%;
+}
+
+.ingresar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3em 0;
+  gap: 2em;
+}
+
+
+.form_login {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.ordenar_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  width: 100%;
+}
+
+.form_login {
+  align-items: center;
+}
+
+.links_login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

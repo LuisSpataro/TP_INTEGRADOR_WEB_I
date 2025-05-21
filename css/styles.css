@@ -139,6 +139,11 @@ footer {
   width: 20%;
 }
 
+.boton_login{
+  width: 40%;
+  padding: 1em;
+}
+
 .guardar {
   background-color: rgb(162, 219, 77);
 }
@@ -179,7 +184,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 3em 0;
+  padding: 2em 0;
   gap: 2em;
 }
 
@@ -195,7 +200,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 1em;
-  width: 100%;
+  width: 70%;
 }
 
 .form_login {
@@ -239,4 +244,10 @@ footer {
 
 .extender{
   width: 40%;
+}
+
+/*botones resetear contrasenia*/
+
+.boton_reset{
+  padding: 1em;
 }

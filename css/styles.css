@@ -31,11 +31,11 @@ header {
 }
 
 .material-symbols-outlined {
-      vertical-align: middle;
-      margin-right: 0.3em;
-      margin-bottom: 0.2em;
-      font-size: 1.2em;
-    }
+  vertical-align: middle;
+  margin-right: 0.3em;
+  margin-bottom: 0.2em;
+  font-size: 1.2em;
+}
 
 a {
   text-decoration: none;
@@ -116,8 +116,6 @@ footer {
   padding: 1em;
 }
 
-
-
 .columna_2 {
   width: 40%;
 }
@@ -151,7 +149,7 @@ footer {
 
 /*recuperar contraseña*/
 
-.recuperar_contrasenia{
+.recuperar_contrasenia {
   max-width: 70%;
   display: flex;
   justify-content: center;
@@ -175,7 +173,7 @@ footer {
 
 }
 
-.form_login{
+.form_login {
   max-width: 100%;
 }
 
@@ -210,8 +208,19 @@ footer {
   align-items: center;
 }
 
-.links_login{
+.links_login {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+/*busqueda pelis y series*/
+
+.contenedor{
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
 }
